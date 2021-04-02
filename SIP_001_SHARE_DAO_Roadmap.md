@@ -41,3 +41,52 @@ Treasury_sNEO 合约地址：0x6840f577e02B3C59519A5bD43c85d0F672E37e11
 2.增加质押倒计时
 在SIP-001投票通过后，将会对原合约进行升级和部署。特别注意的是，因为原ShareBoardroom合约对质押SHARE的用户有72小时的锁仓期，LPBoradroom合约对质押LP的用户有24小时的锁仓期，请大家合理安排质押时间和顺序。
 
+
+
+
+
+
+
+
+ENGLISH/英文
+
+SHARE-DAO Governance Framework
+
+
+Governance
+The Supernova Congress will officially start at 8:00（UTC+0）on April 2nd 2021. All SHARE holders can donate SHARE to get vSHARE and sSHARE, and can participate in the genesis proposal ( SIP-001 SHARE-DAO Roadmap) voting. At present proposal is divided into voting support / oppose these options, all holders of vSHAREs can vote. After the voting is over, if the number of votes for the support option exceeds the number of votes for the opposition option, it means that it is passed, otherwise it means it is rejected.
+ 
+SIP
+Anyone can collect a wide range of opinion within the community, and a full discussion of the proposal form(SuperNova Improvement Proposal,SIP), Pull Request in https://github.com/SuperNova-CASH/SIPs to submit proposals. In the first month, the SuperNova Core team is responsible for screening proposals and submit votes . A month later, it will be a proposal screening by the senators of planets and submiting votes (DAO).
+ 
+Cosmopolitan
+The income certificate sSHARE obtained by donating SHARE can be permanently pledged in the board of directors contract and cannot be taken out. At the same time, it will also be eligible for election as a member of the planet. The number of pledges of sSHARE on the re-election day (the first day of each month ) highest ranks of user address will automatically be eligible to become a member of the planet. According to the total amount of SHARE produced by different planets , the number of members that can be appointed is also different . The initial allocation of members is as follows:
+sCASH/sHT/sNEO Planet 3 Senators 
+sMDX /sFIL/sDOT Planet 2 Senators
+sFILDA/sNULS/sCAN/sFLM Planet 1 Senator
+Remark: With the birth of lower-level planets, higher-level planets will also get more council members
+Universe tax
+When assets are transferred between universes, the universe transferred into assets will collect a certain percentage of assets as taxes (fees) based on the circulating quantity and average price (TWAP) to maintain the economic balance between different universes. 
+The principle of universe tax/fee distribution is as follows:
+5% public chain development fund : used to support the ecological development of the public chain
+5% Creation management incentive : a proposal for the creation of governance participants incentive
+5% Cosmos Senator Incentive : Used for Cosmos Senator's incentive
+10% Universe Governance Fund : Used for market and operating expenses in approved proposals
+25 % of the universe management incentive : to participate SIP motion voters incentives
+50% Universe Treasury Fund: Provide basic liquidity and gain value-added income for asset conversion between the universe, thereby encouraging the governance and development of the universe
+ 
+Contract Upgrade
+In order to achieve the above requirements, some contracts need to be upgraded. The involved contracts include:
+ShareBoardroom_sCASH contract address: 0x95Ceea71AD465C86b61C642154617C5b5DD1a07d
+ShareBoardroom_sHT contract address: 0x47E09a5316dF2b0499A55c3eD2C0e5A648e258C0
+ShareBoardroom_sNEO contract address: 0xdA9157AeD7e4EE16C6270e96D6d96203c4178D04
+LPBoardroom_sCASH contract address: 0xb4daC8D70f0e0255039d328C1Bff2cD3Cfb46150
+LPBoardroom_sHT contract address: 0x8A30eAe49358b25F67aFf4d21Bc35b9D64A29Da4
+LPBoardroom_sNEO contract address: 0x0DE652114636B1fD7810829Db6d9ee5185BbeFCd
+Treasury_sCASH contract address: 0xA0459009Ce9b414541ABA9496C47a691A42Ad285
+Treasury_sHT contract address: 0x7b1B89875F11C32C988E8E9FbCCB6B66E612CB6D
+Treasury_sNEO contract address: 0x6840f577e02B3C59519A5bD43c85d0F672E37e11
+Upgrade Content:
+1.	Add sSHARE pledge entry
+2.	Increase pledge countdown
+After the SIP- 001 vote is passed, new contracts will be deployed. Special attention: ShareBoardroom Contract has a 72-hour lock period, and LP Boardroom has a 24-hour period Lock, please arrange pledged time and sequence. 

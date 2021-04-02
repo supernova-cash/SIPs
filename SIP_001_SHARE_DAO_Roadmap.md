@@ -27,15 +27,15 @@ sFILDA/sNULS/sCAN/sFLM星球1名
 
 ### 合约升级
 为了实现上述需求，需要对部分合约进行升级，涉及合约包括：
-ShareBoardroom_sCASH 合约地址：0x95Ceea71AD465C86b61C642154617C5b5DD1a07d
-ShareBoardroom_sHT 合约地址：0x47E09a5316dF2b0499A55c3eD2C0e5A648e258C0
-ShareBoardroom_sNEO 合约地址：0xdA9157AeD7e4EE16C6270e96D6d96203c4178D04
-LPBoardroom_sCASH 合约地址：0xb4daC8D70f0e0255039d328C1Bff2cD3Cfb46150
-LPBoardroom_sHT 合约地址：0x8A30eAe49358b25F67aFf4d21Bc35b9D64A29Da4
-LPBoardroom_sNEO 合约地址：0x0DE652114636B1fD7810829Db6d9ee5185BbeFCd
-Treasury_sCASH 合约地址：0xA0459009Ce9b414541ABA9496C47a691A42Ad285
-Treasury_sHT 合约地址：0x7b1B89875F11C32C988E8E9FbCCB6B66E612CB6D
-Treasury_sNEO 合约地址：0x6840f577e02B3C59519A5bD43c85d0F672E37e11
+- ShareBoardroom_sCASH 合约地址：0x95Ceea71AD465C86b61C642154617C5b5DD1a07d
+- ShareBoardroom_sHT 合约地址：0x47E09a5316dF2b0499A55c3eD2C0e5A648e258C0
+- ShareBoardroom_sNEO 合约地址：0xdA9157AeD7e4EE16C6270e96D6d96203c4178D04
+- LPBoardroom_sCASH 合约地址：0xb4daC8D70f0e0255039d328C1Bff2cD3Cfb46150
+- LPBoardroom_sHT 合约地址：0x8A30eAe49358b25F67aFf4d21Bc35b9D64A29Da4
+- LPBoardroom_sNEO 合约地址：0x0DE652114636B1fD7810829Db6d9ee5185BbeFCd
+- Treasury_sCASH 合约地址：0xA0459009Ce9b414541ABA9496C47a691A42Ad285
+- Treasury_sHT 合约地址：0x7b1B89875F11C32C988E8E9FbCCB6B66E612CB6D
+- Treasury_sNEO 合约地址：0x6840f577e02B3C59519A5bD43c85d0F672E37e11
 升级内容：
 1.添加sSHARE质押入口
 2.增加质押倒计时
@@ -68,24 +68,24 @@ Remark: With the birth of lower-level planets, higher-level planets will also ge
 ### Universe tax
 When assets are transferred between universes, the universe transferred into assets will collect a certain percentage of assets as taxes (fees) based on the circulating quantity and average price (TWAP) to maintain the economic balance between different universes. 
 The principle of universe tax/fee distribution is as follows:
-5% public chain development fund : used to support the ecological development of the public chain
-5% Creation management incentive : a proposal for the creation of governance participants incentive
-5% Cosmos Senator Incentive : Used for Cosmos Senator's incentive
-10% Universe Governance Fund : Used for market and operating expenses in approved proposals
-25 % of the universe management incentive : to participate SIP motion voters incentives
-50% Universe Treasury Fund: Provide basic liquidity and gain value-added income for asset conversion between the universe, thereby encouraging the governance and development of the universe
+5% public chain development fund : used to support the ecological development of the public chain
+5% Creation management incentive : a proposal for the creation of governance participants incentive
+5% Cosmos Senator Incentive : Used for Cosmos Senator's incentive
+10% Universe Governance Fund : Used for market and operating expenses in approved proposals
+25 % of the universe management incentive : to participate SIP motion voters incentives
+50% Universe Treasury Fund: Provide basic liquidity and gain value-added income for asset conversion between the universe, thereby encouraging the governance and development of the universe
  
 ### Contract Upgrade
 In order to achieve the above requirements, some contracts need to be upgraded. The involved contracts include:
-ShareBoardroom_sCASH contract address: 0x95Ceea71AD465C86b61C642154617C5b5DD1a07d
-ShareBoardroom_sHT contract address: 0x47E09a5316dF2b0499A55c3eD2C0e5A648e258C0
-ShareBoardroom_sNEO contract address: 0xdA9157AeD7e4EE16C6270e96D6d96203c4178D04
-LPBoardroom_sCASH contract address: 0xb4daC8D70f0e0255039d328C1Bff2cD3Cfb46150
-LPBoardroom_sHT contract address: 0x8A30eAe49358b25F67aFf4d21Bc35b9D64A29Da4
-LPBoardroom_sNEO contract address: 0x0DE652114636B1fD7810829Db6d9ee5185BbeFCd
-Treasury_sCASH contract address: 0xA0459009Ce9b414541ABA9496C47a691A42Ad285
-Treasury_sHT contract address: 0x7b1B89875F11C32C988E8E9FbCCB6B66E612CB6D
-Treasury_sNEO contract address: 0x6840f577e02B3C59519A5bD43c85d0F672E37e11
+- ShareBoardroom_sCASH contract address: 0x95Ceea71AD465C86b61C642154617C5b5DD1a07d
+- ShareBoardroom_sHT contract address: 0x47E09a5316dF2b0499A55c3eD2C0e5A648e258C0
+- ShareBoardroom_sNEO contract address: 0xdA9157AeD7e4EE16C6270e96D6d96203c4178D04
+- LPBoardroom_sCASH contract address: 0xb4daC8D70f0e0255039d328C1Bff2cD3Cfb46150
+- LPBoardroom_sHT contract address: 0x8A30eAe49358b25F67aFf4d21Bc35b9D64A29Da4
+- LPBoardroom_sNEO contract address: 0x0DE652114636B1fD7810829Db6d9ee5185BbeFCd
+- Treasury_sCASH contract address: 0xA0459009Ce9b414541ABA9496C47a691A42Ad285
+- Treasury_sHT contract address: 0x7b1B89875F11C32C988E8E9FbCCB6B66E612CB6D
+- Treasury_sNEO contract address: 0x6840f577e02B3C59519A5bD43c85d0F672E37e11
 Upgrade Content:
 1.	Add sSHARE pledge entry
 2.	Increase pledge countdown

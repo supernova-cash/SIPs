@@ -1,0 +1,43 @@
+SIP_001_SHARE_DAO_Roadmap.md
+
+中文/CHINESE
+
+超新星宇宙议会(SHARE-DAO)治理框架
+
+
+宇宙治理
+超新星宇宙议会将于2021年4月2日下午4点正式开启宇宙治理。所有SHARE的持有者可以通过捐赠SHARE来可获取投票权证vSHARE和收益凭证sSHARE。并可参与创世提案(SIP-001 SHARE-DAO Roadmap)投票。目前提案表决分为 支持/反对 两个选项，所有持有vSHARE的用户均可参与投票。投票结束后，支持选项得票数超过反对选项得票数，即表示通过，否则表示被拒绝。
+
+SIP提案
+任何人都可以在社区内广泛征集意见并充分讨论形成提案，在指定仓库（https://github.com/SuperNova-CASH/SIPs）打开一个 Pull Request 来提交提案内容。在第一个月，由 SuperNova核心团队负责筛选提案并提交投票。一个月后，将由宇宙议员进行提案筛选并提交投票。
+宇宙议员
+捐赠SHARE所获取的收益凭证sSHARE可以被永久得质押在董事会合约中而不能被取出，同时也将获得该星球议员的竞选资格，在改选日(每个月第一天)质押sSHARE数量排名前列的用户地址将自动获得成为该星球议员的资格，不同星球根据其产出SHARE总量的不同，所能被委派的议员数量也有所不同，初始议员名额分配如下：
+sCASH/sHT/sNEO星球3名
+sMDX/sFIL/sDOT星球2名
+sFILDA/sNULS/sCAN/sFLM星球1名
+备注：随着更低级别星球的诞生，高级别星球也将获得更多的议员名额
+宇宙税
+宇宙间资产转换时，被转入资产的宇宙将根据流通数量、平均价格收取一定比例的资产作为税收，以维持不同宇宙间的经济平衡。宇宙税分配原则如下：
+5% 公链开发基金：用于支持公链生态发展
+5% 创世治理激励：用于创世治理提案参与者的激励
+5% 宇宙议员激励：用于宇宙议员的激励
+10% 宇宙治理基金：用于已通过提案中的市场和运营支出
+25% 宇宙治理激励：用于参与SIP议案投票者的激励
+50% 宇宙金库基金：为宇宙间的资产转换提供基础流动性并获取增值收益，从而激励宇宙治理和发展 
+
+合约升级
+为了实现上述需求，需要对部分合约进行升级，涉及合约包括：
+ShareBoardroom_sCASH 合约地址：0x95Ceea71AD465C86b61C642154617C5b5DD1a07d
+ShareBoardroom_sHT 合约地址：0x47E09a5316dF2b0499A55c3eD2C0e5A648e258C0
+ShareBoardroom_sNEO 合约地址：0xdA9157AeD7e4EE16C6270e96D6d96203c4178D04
+LPBoardroom_sCASH 合约地址：0xb4daC8D70f0e0255039d328C1Bff2cD3Cfb46150
+LPBoardroom_sHT 合约地址：0x8A30eAe49358b25F67aFf4d21Bc35b9D64A29Da4
+LPBoardroom_sNEO 合约地址：0x0DE652114636B1fD7810829Db6d9ee5185BbeFCd
+Treasury_sCASH 合约地址：0xA0459009Ce9b414541ABA9496C47a691A42Ad285
+Treasury_sHT 合约地址：0x7b1B89875F11C32C988E8E9FbCCB6B66E612CB6D
+Treasury_sNEO 合约地址：0x6840f577e02B3C59519A5bD43c85d0F672E37e11
+升级内容：
+1.添加sSHARE质押入口
+2.增加质押倒计时
+在SIP-001投票通过后，将会对原合约进行升级和部署。特别注意的是，因为原ShareBoardroom合约对质押SHARE的用户有72小时的锁仓期，LPBoradroom合约对质押LP的用户有24小时的锁仓期，请大家合理安排质押时间和顺序。
+

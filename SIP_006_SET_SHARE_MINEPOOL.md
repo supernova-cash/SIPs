@@ -8,3 +8,12 @@ SIP_006_SET_SHARE_MINEPOOL.md
 - 5000枚SHARE分100天线性释放，每天50枚SHARE
 - 额外建立SHARE-USDT-LP池，用于该部分奖励发放
 - 用户可以质押SHARE-USDT-LP来获取SHARE收益。
+
+### Proposal purpose
+- Increase the amount of SHARE lock-up and improve the liquidity of SHARE. 
+- The current liquidity of SHARE is mainly provided by the four (4) pools: SHARE/USDT, SHARE/HUSD, SHARE/wHT and SHARE/pNEO, with a total depth of about 600,000 U.S. dollars. Daily output of SHARE is 43.74.
+- In order to further enhance the liquidity and transaction depth of SHARE, it is proposed to use 5000 SHARE as additional rewards for users who provide liquidity for SHARE/USDT or pledge SHARE.
+
+### Action plan
+- 5000 SHAREs are released for 100 days. 
+- 50 SHAREs per day is for providing additional liquidity in SHARE-USDT-LP pool or pledge SHARE to obtain SHARE rewards.

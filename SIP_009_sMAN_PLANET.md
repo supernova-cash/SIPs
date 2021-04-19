@@ -13,3 +13,17 @@ SIP_009_sMAN_PLANET.md
 - sMAN星球释放SHARE数量：2500枚
 - 额外奖励
 - 若提案通过，参与投票的用户还将平分价值2000$的MAN(HECO)空投奖励
+
+
+## SMAN Planet Open proposal
+- Matrix is a well-known public chain in the field of artificial intelligence, which has a strong intrenational community. Working with Matrix would bring new traffic and momentum to the supernova universe with extended development resources in the direction of AI and NFT.
+- Huobi Global will support liquidity of MAN assets on HECO, which will greatly improve the efficiency of the use of related assets.
+
+### Cooperation programme
+- MAN/sCASH liquidity pre-mining will be opened on April 24th 2021.
+- Genesis mining opening conditions: MAN/sCASH TVL must meet at least $500.000.
+- Supported assets for genesis mining (expected): MAN sCASH sHT sNEO SHARE HBTC ETH USDT HUSD HT MDX FILDA).
+
+- Number of SHARE released from sMAN: 2500.
+- Additional reward
+- If the proposal is passed, all voters will split the MAN (HECO) airdrop award worth $2000 equally.

@@ -12,4 +12,18 @@ SIP_008_sLHB_PLANET.md
  
 ### 额外奖励
 - 暂无
+
+## SLHB Planet Open proposal
+
+- LendHub is one of the largest lending platforms in Heco ecology chain. Cooperation with LendHub can also bring supernova universe more financial and resources in-flow.
+
+### Cooperation programme
+
+- LHB/sHT liquidity pre-mining will be opened on April 20th 2021.
+- Genesis mining opening conditions: LHB/sHT TVL must meet at least $500.000.
+- Supported assets for genesis mining (expected): LHB sCASH sHT sNEO SHARE HBTC ETH USDT HUSD HT MDX NULS).
+- Number of SHARE released from sLHB: 2500.
+
+### Additional reward
+- Temporary absence
  

@@ -5,4 +5,6 @@ SIP_0014_SHAREPOOL_ADJUSTMENT.md
 ### 优化方案
 - 矿池合约升级时间：5月6日16:00 (UTC+8)
 
+.![avatar](sip14.png)
+
 
